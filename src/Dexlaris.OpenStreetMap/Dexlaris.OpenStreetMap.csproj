@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>Dexlaris.OpenStreetMap</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Nikita Nikitins</Authors>
+    <Description>A .NET library for OpenStreetMap (OSM) integration. Dexlaris.OpenStreetMap supports geocoding (address/place queries) and reverse geocoding (coordinate-based lookups) using OSM's Nominatim API. Ideal for .NET mapping and geolocation apps.</Description>
+    <RepositoryUrl>https://github.com/Dexlaris/dexlaris-openstreetmap</RepositoryUrl>
+    <PackageTags>dotnet;osm;</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="9.0.7" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.7" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.7" />
+  </ItemGroup>
+
+</Project>
